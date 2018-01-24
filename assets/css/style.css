@@ -8,6 +8,12 @@ h1 {
 
     margin: 0;
 
+    width: 50%;
+
+    padding: 20px 0;
+
+    float: left;
+
 }
 
 main {
@@ -36,9 +42,7 @@ header {
 
     display: inline-block;
 
-    width: 50%;
-
-    align-content: top;
+    width: 100%;
 
     margin: 0;
 
@@ -54,7 +58,11 @@ footer {
 
     height: 70px;
 
-    align-content: center;
+    bottom: 0;
+
+    position: absolute;
+
+    width: 100%;
 
 }
 
@@ -71,7 +79,31 @@ footer {
 
 #navLinks {
 
+    float: right;
+
+    text-align: center;
+
+    width: 50%;
+
+    padding: 20px 0;
+
+}
+
+#navLinks li:not(:first-child):before {
+    content: " | ";
+}
+
+hr {
+
+    margin: 0;
+
+}
+
+li {
+
     display: inline-block;
+
+    padding: 0 10px;
 
 }
 
@@ -131,4 +163,10 @@ body {
 
     color: white;
     
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
