@@ -14,17 +14,13 @@ h1 {
 
     float: left;
 
+    font-size: 34px;
+
 }
 
 main {
 
-background-image: url("http://lorempixel.com/output/abstract-q-g-640-480-7.jpg");
-
-background-repeat: no-repeat;
-
-background-color: #4aaaa5;
-
-background-size: cover;
+    margin: 8px;
 
 }
 
@@ -32,9 +28,15 @@ section {
 
     display: inline-block;
 
-    width: 50%;
+    width: 32%;
 
     background-color: white;
+
+    height: 200px;
+
+    border-radius: 10px;
+
+    margin: 10px;
 
 }
 
@@ -48,6 +50,8 @@ header {
 
     padding: 0;
 
+    background-color: #ffffff;
+
 }
 
 footer {
@@ -60,7 +64,7 @@ footer {
 
     bottom: 0;
 
-    position: absolute;
+    position: fixed;
 
     width: 100%;
 
@@ -68,13 +72,24 @@ footer {
 
 .socialMediaLinks {
 
-    width: 270px;
+    width: 100%;
+
+    margin: 20px 0 0 0;
 
 }
 
 .aboutMe {
 
     width: 650px;
+
+    padding: 10px 10px 60px 10px;
+
+}
+
+.connect {
+
+    padding: 10px;
+
 }
 
 #navLinks {
@@ -99,18 +114,49 @@ hr {
 
 }
 
+ul {
+
+    text-align: center;
+
+}
+
 li {
 
     display: inline-block;
 
-    padding: 0 10px;
+    padding: 7px 2px;
 
+    font-size: 20px;
+
+}
+
+a {
+
+    text-decoration: none;
+    
+    color: black;
+    
 }
 
 h2 {
 
     color: #4aaaa5;
 
+    font-size: 26px;
+
+    margin: 10px;
+
+}
+
+h3{
+
+    padding: 10px;
+
+    margin: 10px;
+
+    color: white;
+
+    opacity: .6;
 }
 
 body {
@@ -118,6 +164,66 @@ body {
     margin: 0;
 
     padding: 0;
+
+    background-image: url("http://lorempixel.com/output/nature-q-c-640-480-2.jpg");
+
+    background-repeat: no-repeat;
+
+    background-color: #4aaaa5;
+
+    background-size: cover;
+
+}
+
+#bio-image {
+
+    width: 200px;
+
+    height: auto;
+
+    float: left;
+
+    margin: 6px;
+
+    border-radius: 10px;
+
+}
+
+.portfolioimages {
+
+    width: 200px;
+
+    height: auto;
+
+    border-radius: 10px;
+
+}
+
+.portfolioLabels {
+
+    background-color: teal;
+
+    color: white;
+
+}
+
+.work {
+
+    text-align: center;
+
+    position: relative;
+    
+}
+
+p {
+
+    font-size: 18px;
+
+}
+
+.nameplate {
+
+    color: white;
 
 }
 
