@@ -9,70 +9,66 @@
 
 <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
 
-    <header>
+    <header id="masthead">
+        <div>
 
-        <h1><a href="index.html" class="nameplate">David Scherer-ODell</a></h1>
+            <a href="index.html" id="logo">David Scherer-ODell</a>
 
-        <ul id="navLinks">
+            <nav>
 
-            <li><a href="index.html">About</a></li>
+                <a href="index.html">About</a>
 
-            <li><a href="portfolio.html">Portfolio</a></li>
+                <a href="portfolio.html">Portfolio</a>
 
-            <li><a href="contact.html">Contact</a></li>
-        
-        </ul>
-        
-        <hr>
+                <a href="contact.html">Contact</a>
+
+            </nav>
+
+        </div>
 
     </header>
 
     
 
-    <main>
+    <div id="main-container" class="container">
 
-        <section class="aboutMe">
+        <section class="main-section">
 
-            <h2>Contact</h2>
+            <h1>Contact</h1>
 
-            <hr>
-
-            <form id="contact form">
+            <form id="contact-form">
 
                 <ul>
 
                     <li>
 
                         <label for="name">Name</label>
-        
+
                         <input type="text" name="name" id="name" placeholder="John Doe" required="required">
-        
+
                     </li>
-                
+
                     <li>
 
                         <label for="email">Email</label>
     
                         <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
-    
+                            
                     </li>
 
                     <li>
 
                         <label for="message">Message</label>
-    
-                     <textarea id="message" name="message" required="required"></textarea>
-    
+        
+                        <textarea name="message" id="message" placeholder="Type your message here!" required="required"></textarea>
+                                
                     </li>
-                
 
                 </ul>
 
@@ -82,28 +78,29 @@
 
         </section>
 
-        <section class="connect">
+        <section class="sidebar">
 
-            <h2>Connect with Me</h2>
+            <div id="connect">
 
-            <hr>
+                <h2>Connect with Me</h2>
 
-            <ul class="socialMediaLinks">
+                <a href="https://github.com/dscherer21" target="_blank"><img src="assets/images/githublogo.png" class="social" alt="Github"></a>
 
-                <li><a href="https://github.com/dscherer21" class="fa fa-github" target="_blank"></a></li>
+                <a href="https://www.linkedin.com/in/david-scherer-odell-9b435850/" target="_blank"><img src="assets/images/linkedinlogo.png" class="social" alt="LinkedIn"></a>
 
-                <li><a href="https://www.linkedin.com/in/david-scherer-odell-9b435850/" class="fa fa-linkedin" target="_blank"></a></li>
+                <a href="https://stackoverflow.com/users/8153526/david-scherer-odell" target="_blanK"><img src="assets/images/stackoverflowlogo.png" class="social" alt="Stack Overflow"></a>
 
-                <li><a href="https://stackoverflow.com/users/8153526/david-scherer-odell" class="fa fa-stack-overflow" target="_blank"></a></li>
+            </div>
 
-            </ul>
         </section>
 
-    </main>
+    </div>
 
     <footer>
     
-        <h3>©Copyright 2018 David Scherer-ODell</h3>
+        <div class="container">
+            &copy; Copyright 2018 David Scherer-ODell
+        </div>
 
     </footer>
 </body>
